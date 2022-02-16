@@ -27,7 +27,7 @@
   top: 30px;
   left: 64px;
   background-image: url(../images/logo_place_header.svg);
-  background-size: cover
+  background-size: cover;
 }
 
 .header__title {/*OK*/
@@ -265,7 +265,7 @@
 
 .cell_theme_dark {/*OK*/
   width: 200px;
-  margin: 80px 0 0 0 ;
+  margin: 80px 0 0 0;
   list-style: none;
   z-index: 1;
 }
