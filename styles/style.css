@@ -137,6 +137,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  margin: 0;
 }
 
 .section-subtitle {/*OK*/
@@ -155,39 +156,33 @@
   width: 1100px;
   justify-content: space-between;
   margin: 0 0 100px 0;
+  list-style: none;
+  padding: 0;
 }
 
-.cell {/*OK*/
+.table__cell {/*OK*/
   width: 250px;
   margin: 60px 0 0 0;
   list-style: none;
 }
 
 .cell__heading {/*OK*/
-  margin: 0 0 20px 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .cell__text {/*OK*/
-  margin: 0 0 20px 0;
+  margin: 20px 0 0 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
-
-.cell__cite {/*OK*/
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 0;
-  font-style: normal;
 }
 
 .feynman {/*OK*/
   position: relative;
-  width: 100vw;
+  width: 100%;
   min-height: 890px;
   display: flex;
   flex-direction: column;
@@ -214,12 +209,9 @@
 }
 
 .feynman__link {/*OK*/
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   position: absolute;
-  margin: 0 48px 0 0;
+  top: 50%;
+  right: 48px;
   align-self: flex-end;
   line-height: 51px;
   font-size: 36px;
@@ -259,11 +251,11 @@
   z-index: 1; 
 }
 
-.table__theme_dark {
+.table_theme_dark {
   margin: 0 0 90px 0;
 }
 
-.cell_theme_dark {/*OK*/
+.table__cell_theme_dark {/*OK*/
   width: 200px;
   margin: 80px 0 0 0;
   list-style: none;
@@ -277,11 +269,10 @@
 
 .cell__text_theme_dark {/*OK*/
   color: white;
-  margin: 0;
   z-index: 1;
 }
 
-.kaufman__triangle-image {
+.kaufman__triangle {
   position: absolute;
   height: 877px;
   width: 877px;
@@ -307,21 +298,21 @@
   margin: 60px 0 40px 0;
 }
 
-.column {/*OK*/
+.footer__column {/*OK*/
   display: flex;
   flex-direction: column;
 }
 
-.column_content_copyright {/*OK*/
+.footer__column_content_copyright {/*OK*/
   justify-content: space-between;
   flex-basis: 711px;
 }
 
-.column_content_info {
+.footer__column_content_info {
 /*не совсем понял зачем в брифе требуют модификатор к этому блоку, поэтому оставил его пустым ¯\_(ツ)_/¯*/
 }
 
-.column_content_social {
+.footer__column_content_social {
 /*не совсем понял зачем в брифе требуют модификатор к этому блоку, поэтому оставил его пустым ¯\_(ツ)_/¯*/
 }
 
@@ -339,7 +330,7 @@
   color: white;
 }
 
-.column-heading {/*OK*/
+.footer__column-heading {/*OK*/
   margin: 0 0 20px 0;
   line-height: 30px;
   font-size: 18px;
@@ -347,13 +338,13 @@
   color: white;
 }
 
-.column-links {/*OK*/
+.footer__column-links {/*OK*/
   display: flex;
   flex-direction: column;
   margin: 0 0 16px 0;
 }
 
-.column__link {/*OK*/
+.footer__column__link {/*OK*/
   display: flex;
   align-items: center;
   line-height: 30px;
@@ -367,19 +358,4 @@
   width: 16px;
   height: 16px;
   margin: 0 10px 0 0;
-}
-
-.social-icon_social_fbk {
-  background: url(../images/facebook_color_white.svg);
-  background-repeat: no-repeat;/*по какой-то неведомсой причине иконки дублировались, хотя ранее я этого не указывал... Пришлось добавить это свойство*/
-}
-
-.social-icon_social_vk {
-  background: url(../images/vk_color_white.svg);
-  background-repeat: no-repeat;/*по какой-то неведомсой причине иконки дублировались, хотя ранее я этого не указывал... Пришлось добавить это свойство*/
-}
-
-.social-icon_social_inst {
-  background: url(../images/instagram_color_white.svg);
-  background-repeat: no-repeat;/*по какой-то неведомсой причине иконки дублировались, хотя ранее я этого не указывал... Пришлось добавить это свойство*/
 }
