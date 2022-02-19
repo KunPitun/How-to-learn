@@ -166,14 +166,14 @@
   list-style: none;
 }
 
-.cell__heading {/*OK*/
+.table__heading {/*OK*/
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   margin: 0;
 }
 
-.cell__text {/*OK*/
+.table__text {/*OK*/
   margin: 20px 0 0 0;
   line-height: 1.2;
   font-size: 18px;
@@ -262,12 +262,12 @@
   z-index: 1;
 }
 
-.cell__heading_theme_dark {/*OK*/
+.table__heading_theme_dark {/*OK*/
   color: white;
   z-index: 1;
 }
 
-.cell__text_theme_dark {/*OK*/
+.table__text_theme_dark {/*OK*/
   color: white;
   z-index: 1;
 }
@@ -344,7 +344,7 @@
   margin: 0 0 16px 0;
 }
 
-.footer__column__link {/*OK*/
+.column-links__column-link {/*OK*/
   display: flex;
   align-items: center;
   line-height: 30px;
