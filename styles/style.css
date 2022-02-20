@@ -1,11 +1,11 @@
-.page {/*OK*/
+.page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.header {/*OK*/
+.header {
   display: flex;
   align-items: center;
   position: relative;
@@ -13,16 +13,16 @@
   max-height: 756px;
   height: 100vh;
   background-color: #f2f2f2;
-  overflow: hidden; /*добавил это что бы квадрат не выезжал за пределы блока при уменьшении размера окна, а то уж больно галаза мозолит :-) */
+  overflow: hidden; 
 }
 
-.logo {/*OK*/
+.logo {
   height: 32px;
   width: 183px;
   z-index: 4;
 }
 
-.logo_place_header {/*OK*/ 
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -30,7 +30,7 @@
   background-size: cover;
 }
 
-.header__title {/*OK*/
+.header__title {
   margin: 0 0 0 64px;
   width: 730px;
   font-size: 102px;
@@ -39,7 +39,7 @@
   z-index: 2;
 }
 
-.header__subtitle {/*OK*/
+.header__subtitle {
   width: 388px;
   position: absolute;
   left: 64px;
@@ -51,7 +51,7 @@
   margin: 0;
 }
 
-.header__link {/*OK*/
+.header__link {
   text-decoration: none;
   color: #2f80ed;
 }
@@ -65,7 +65,7 @@
   z-index: 1;
 }
 
-.header__square-pic {/*OK*/
+.header__square-pic {
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
@@ -75,13 +75,13 @@
   z-index: 0;
 }
 
-.description {/*OK*/
+.description {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.two-coloumns {/*OK*/
+.two-coloumns {
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -89,7 +89,7 @@
   margin: 100px 0 100px 0;
 }
 
-.two-coloumns__brief {/*OK*/
+.two-coloumns__brief {
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -98,7 +98,7 @@
   margin: 0;
 }
 
-.two-coloumns__main-text {/*OK*/
+.two-coloumns__main-text {
   display: flex;
   width: 80%;
   min-width: 784px;
@@ -106,41 +106,40 @@
   justify-content: space-between;
 }
 
-.two-coloumns__paragraph {/*OK*/
+.two-coloumns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   margin: 0 0 30px 0;
 }
 
-.two-coloumns__paragraph:last-child {/*OK*/
+.two-coloumns__paragraph:last-child {
   margin: 0;
 }
 
-.two-coloumns__span-accent {/*OK*/
+.two-coloumns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
 }
 
-.digits {/*OK*/
+.digits {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.section-title {/*OK*/
+.section-title {
   display: flex;
   justify-content: center;
   width: 60%;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  margin: 0;
 }
 
-.section-subtitle {/*OK*/
+.section-subtitle {
   display: flex;
   justify-content: center;
   width: 60%;
@@ -150,7 +149,7 @@
   font-weight: normal;
 }
 
-.table {/*OK*/
+.table {
   display: flex;
   flex-wrap: wrap;
   width: 1100px;
@@ -160,27 +159,27 @@
   padding: 0;
 }
 
-.table__cell {/*OK*/
+.table__cell {
   width: 250px;
   margin: 60px 0 0 0;
   list-style: none;
 }
 
-.table__heading {/*OK*/
+.table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   margin: 0;
 }
 
-.table__text {/*OK*/
+.table__text {
   margin: 20px 0 0 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 
-.feynman {/*OK*/
+.feynman {
   position: relative;
   width: 100%;
   min-height: 890px;
@@ -190,7 +189,7 @@
   background-color: #f2f2f2;
 }
 
-.feynman__title {/*OK*/
+.feynman__title {
   width: 648px;
   margin: 100px 0 70px 0;
   line-height: 1.15;
@@ -200,7 +199,7 @@
   z-index: 2;
 }
 
-.feynman__subtitle {/*OK*/
+.feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -208,7 +207,7 @@
   z-index: 2;
 }
 
-.feynman__link {/*OK*/
+.feynman__link {
   position: absolute;
   top: 50%;
   right: 48px;
@@ -230,7 +229,7 @@
   z-index: 0;
 }
 
-.kaufman {/*OK*/
+.kaufman {
   position: relative;
   display: flex;
   width: 100%;
@@ -240,13 +239,13 @@
   overflow: hidden;
 }
 
-.section-title_theme_dark {/*OK*/
+.section-title_theme_dark {
   color: white;
   margin: 90px 0 20px 0;
   z-index: 1;
 }
 
-.section-subtitle_theme_dark {/*OK*/
+.section-subtitle_theme_dark {
   color: white;
   z-index: 1; 
 }
@@ -255,19 +254,19 @@
   margin: 0 0 90px 0;
 }
 
-.table__cell_theme_dark {/*OK*/
+.table__cell_theme_dark {
   width: 200px;
   margin: 80px 0 0 0;
   list-style: none;
   z-index: 1;
 }
 
-.table__heading_theme_dark {/*OK*/
+.table__heading_theme_dark {
   color: white;
   z-index: 1;
 }
 
-.table__text_theme_dark {/*OK*/
+.table__text_theme_dark {
   color: white;
   z-index: 1;
 }
@@ -283,7 +282,7 @@
   z-index: 0;
 }
 
-.footer {/*OK*/
+.footer {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -291,38 +290,38 @@
   min-height: 350px;
 }
 
-.footer__columns {/*OK*/
+.footer__columns {
   display: flex;
   justify-content: space-between;
   width: 90%;
   margin: 60px 0 40px 0;
 }
 
-.footer__column {/*OK*/
+.footer__column {
   display: flex;
   flex-direction: column;
 }
 
-.footer__column_content_copyright {/*OK*/
+.footer__column_content_copyright {
   justify-content: space-between;
   flex-basis: 711px;
 }
 
 .footer__column_content_info {
-/*не совсем понял зачем в брифе требуют модификатор к этому блоку, поэтому оставил его пустым ¯\_(ツ)_/¯*/
+
 }
 
 .footer__column_content_social {
-/*не совсем понял зачем в брифе требуют модификатор к этому блоку, поэтому оставил его пустым ¯\_(ツ)_/¯*/
+
 }
 
-.logo_place_footer {/*OK*/
+.logo_place_footer {
   height: 35px;
   background: url(../images/logo_place_footer.svg);
   background-size: cover;
 }
 
-.footer__author {/*OK*/
+.footer__author {
   margin: 18px 0 18px 0;
   line-height: 25px;
   font-size: 18px;
@@ -330,7 +329,7 @@
   color: white;
 }
 
-.footer__column-heading {/*OK*/
+.footer__column-heading {
   margin: 0 0 20px 0;
   line-height: 30px;
   font-size: 18px;
@@ -338,13 +337,13 @@
   color: white;
 }
 
-.footer__column-links {/*OK*/
+.footer__column-links {
   display: flex;
   flex-direction: column;
   margin: 0 0 16px 0;
 }
 
-.column-links__column-link {/*OK*/
+.footer__column-link {
   display: flex;
   align-items: center;
   line-height: 30px;
@@ -354,7 +353,7 @@
   text-decoration: none;
 }
  
-.social-icon {/*OK*/
+.footer__social-icon {
   width: 16px;
   height: 16px;
   margin: 0 10px 0 0;
