@@ -1,0 +1,12 @@
+.two-coloumns {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px 0 0 0;
+}
+
+.oakley .two-coloumns {
+  margin: 160px 0 0 0; 
+}
+
