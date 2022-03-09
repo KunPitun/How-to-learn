@@ -82,11 +82,14 @@
       <section class="video">
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <!--хотел поменять на ul, но валидатор ругается, надо добавлять li, а к ним класс, что бы обнулить стили - будет не по брифу ¯\_(ツ)_/¯-->
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li class="video__item">
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          </li>
+          <li class="video__item">
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          </li>
+        </ul>
       </section>
       <section class="oakley">
         <div class="two-columns">
@@ -220,18 +223,33 @@
         </ul>
         <div class="kaufman__triangle rotation"></div>
       </section>
+      <section class="resources">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+        <ul class="resources__logo-zone">
+          <li>
+            <a href="#" traget="_blank" lang="ru">
+              <img class="resources__logo" src="./images/resources-arzamas.svg" alt="Логотип Arzamas">
+            </a>
+          </li>
+          <li>
+            <a href="#" traget="_blank" lang="ru">
+              <img class="resources__logo" src="./images/resources-n1.svg" alt="Логотип N1">
+            </a>
+          </li>
+          <li>
+            <a href="#" traget="_blank" lang="ru">
+              <img class="resources__logo" src="./images/resources-strelka.svg" alt="Логотип Стрелка">
+            </a>
+          </li>
+          <li>
+            <a href="#" traget="_blank" lang="ru">
+              <img class="resources__logo" src="./images/resources-polka.svg" alt="Логотип Полка">
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
-    <section class="resources">
-      <h2 class="section-title">Полезные ресурсы</h2>
-      <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-      <div class="resources__logo-zone">
-        <!--хотел поменять на ul, но валидатор ругается, надо добавлять li, а к ним класс, что бы обнулить стили - будет не по брифу ¯\_(ツ)_/¯-->
-        <a href="#" target="_blank" lang="ru" class="resources__logo"></a>
-        <a href="#" target="_blank" lang="ru" class="resources__logo"></a>
-        <a href="#" target="_blank" lang="ru" class="resources__logo"></a>
-        <a href="#" target="_blank" lang="ru" class="resources__logo"></a>
-      </div>
-    </section>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
@@ -264,3 +282,10 @@
 </body>
 
 </html>
+
+<!--Я совершенно запутался с цветами блоков, а конкретно с белым и светло-серым. Абсолютно не могу различить их на глаз.
+Поэтому сужу о цвете блоков только с ваших комментариев. На сколько я понял светло-серым должен быть только header.
+В 1м брифе https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf есть упоминания о цвете на 1й странице
+(там вроде светло серый везде, белого нет, как я понял), во 2м https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf 
+вообще про цвета ничего нет. В общем я к тому, что было бы круто, если бы в брифах добавили текстом цвет каждого блока для таких 
+дальтоников как я XD. В общем что-то мне подсказывает, что без 3й итерации не обойтись)-->
